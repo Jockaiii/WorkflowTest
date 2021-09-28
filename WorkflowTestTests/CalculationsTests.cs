@@ -13,6 +13,7 @@ namespace WorkflowTest.Tests
         public void AddTest()
         {
             Assert.AreEqual(13, Calculations.Add(5,8));
+            Assert.AreEqual(12, Calculations.Add(5,8));
         }
     }
 }
